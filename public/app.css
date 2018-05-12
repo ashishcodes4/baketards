@@ -6,8 +6,15 @@ body {
 .container h1 {
     text-align: center;
     font-size: 3em;
-    color: linear-gradient(to right, #B28A33, #D9C562);
+ 
 }
+
+h1 {
+    font-size: 3em;
+    background: -webkit-linear-gradient(#B28A33, #D9C562);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 .footer span {
     text-align: center;
     position: fixed;
