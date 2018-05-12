@@ -1,5 +1,16 @@
+body {
+    background-color: #000;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 .container h1 {
     text-align: center;
     font-size: 3em;
     color: goldenrod;
+}
+.footer span {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
 }
