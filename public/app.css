@@ -16,6 +16,10 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+.footer {
+    text-align: center;
+}
 .footer span {
     text-align: center;
     position: fixed;
