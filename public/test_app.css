@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    background-color: #000;
+    border: 3px solid #f2f2f2;
+    justify-content: center;
+
+}
+.link {
+    flex: 1;
+    background-color: #BADa55;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .navigation {
+        display: block;
+    }
+    .link1 {
+        display: block;
+    }
+}
