@@ -3,15 +3,6 @@ body {
     padding: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.container {
-    display: flex;
-    flex-direction: row;
-}
-.container h1 {
-    text-align: center;
-    font-size: 3em;
- 
-}
 
 h1 {
     font-size: 3em;
@@ -21,6 +12,12 @@ h1 {
     -webkit-text-fill-color: transparent;
   }
 
+img.qr_image {
+    width: 200px;
+}
+img.logo {
+    width: 200px;
+}
 .footer {
     text-align: center;
 }
