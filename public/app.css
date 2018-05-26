@@ -34,7 +34,6 @@ section.qr_codes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 8em;
 }
 img.qr_image {
     width: 150px;
@@ -47,7 +46,7 @@ img.qr_image {
     justify-content: center;
 }
 .footer span {
-    position: relative;
+    position: fixed;
     bottom: 0;
     color: #fff;
 }
@@ -71,5 +70,6 @@ img.qr_image {
     img.qr_image {
         width: 100px;
         height: 100px;
+        margin-bottom: 1em;
     }
 }
