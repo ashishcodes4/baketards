@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    color: #fff;
     padding: 1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -33,6 +34,9 @@ h1 {
 img.qr_image {
     width: 150px;
     height: 150px;
+}
+.coming_soon {
+
 }
 
 /* Footer CSS */
