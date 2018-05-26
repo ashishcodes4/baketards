@@ -30,11 +30,6 @@ h1 {
     text-align: center;
 }
 
-section.qr_codes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 img.qr_image {
     width: 150px;
     height: 150px;
@@ -71,5 +66,14 @@ img.qr_image {
         width: 100px;
         height: 100px;
         margin-bottom: 1em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    section.qr_codes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 8em;
     }
 }
