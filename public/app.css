@@ -40,10 +40,10 @@ img.qr_image {
 .footer {
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
 .footer span {
-    position: fixed;
-    bottom: 0;
     color: #fff;
 }
 
