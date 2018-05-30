@@ -1,0 +1,11 @@
+body {
+    background-color: #001420; 
+    color: #fff;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand img {
+    width: 125px;
+    height: 125px;
+}

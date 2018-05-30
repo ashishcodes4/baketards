@@ -9,19 +9,33 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+/* Navigation bar styles */
+a.nav_link {
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     min-height: 20vh;
 }
 .nav img {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
 }
 
 /* Body */
-h1 {
-    font-size: 3em;
+h1,h2, h3, h4, h5, h6, p, span, a {
+    background: -webkit-linear-gradient(#B28A33, #D9C562);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+a {
     background: -webkit-linear-gradient(#B28A33, #D9C562);
     background-clip: text;
     -webkit-background-clip: text;
@@ -34,6 +48,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.coming_soon h1 {
+    font-size: 3em;
 }
 
 /* Footer CSS */
