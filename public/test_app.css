@@ -34,3 +34,10 @@ body {
 .fab {
     font-size: 7em;
 }
+
+.fab facebook {
+    display: flex;
+    flex-direction: column;
+    -moz-box-flexgroup: 1;
+    -ms-flex-direction: flex;
+}
