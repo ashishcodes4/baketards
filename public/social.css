@@ -38,34 +38,93 @@ body {
 }
 
 i.fab.fa-linkedin-in {
-    color:  #b18932;
+    color:  #0077B5;
 }
 
 i.fab.fa-twitter {
-    color:  #b18932;
+    color:  #1da1f2;
 }
 
 i.fab.fa-facebook-square {
-    color:  #dac863;
+    color:  #3B5998;
 }
-i.fab.fa-instagram {
-    color:  #dac863;
+i.fab.fa-instagram{
+    /* background: -webkit-linear-gradient(#bc2a8d, #fccc63, #cd486b, #fff, #4c68d7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: #bc2a8d;
 }
 @media only screen and (max-width: 600px) {
     .fab {
-        font-size: 5em;
+        font-size: 3em;
     }
     .button {
         width: 50%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center
     }
     .buttons {
         display: flex;
         min-height: 60vh;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    a {
+        text-decoration: none;
+    }
+    .button.facebook {
+        background: linear-gradient(to right, #ffffff , #3B5998);
+        padding:  5px;
+        width:  100%;
+        color: #3B5998;
+        justify-content: flex-start;
+        border-radius:  5px;
+    }
+    .button.facebook span {
+        margin-left:  2em;
+    }
+    .button.instagram {
+        width: 100%;
+        justify-content: flex-end;
+        background: linear-gradient(to right, #bc2a8d, #fff );
+        color: #000;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .button.instagram span {
+        margin-right: 2em;
+    }
+    .button.instagram a {
+        order:  1;
+    }
+    .button.twitter {
+        width: 100%;
+        justify-content: flex-start;
+        background: linear-gradient(to right, #ffffff , #1da1f2);
+        color: #000;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .button.twitter span {
+        margin-left: 2em;
+    }
+    .button.linkedin {
+        width: 100%;
+        justify-content: flex-end;
+        background: linear-gradient(to left, #ffffff , #0077B5);
+        color: #000;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .button.linkedin a {
+        order:  1;
+    }
+    .button.linkedin span {
+        margin-right: 2em;
     }
 }
 .footer {
@@ -74,4 +133,15 @@ i.fab.fa-instagram {
     align-items: flex-end;
     min-height: 18vh;
 }
+
+/* 2nd changes to social media page */
+
+/* .button.facebook {
+    border: 1px solid #4267b2;
+    background-color:  #4267b2;
+    border-radius:  6px;
+    padding: 5px;
+} */
+
+
 
