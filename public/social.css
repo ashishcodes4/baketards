@@ -29,6 +29,10 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.fab:hover {
+    font-size: 8em;
+}
 .fab {
     font-size: 7em;
 }

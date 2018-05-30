@@ -7,49 +7,43 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Baketards</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" type="image/png" href="images/Baketards Logo Final (1).png" />
-        <link rel="stylesheet" href="app.css" />
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Baketards</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="images/Baketards Logo Final (1).png" />
+    <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-            <nav>
-                <img class="logo" src="images/Baketards Logo Final (1).png" />
-            </nav>
-            <section class="coming_soon">
-                <h1>Website Coming Soon...</h1>
-                <!-- <h3>Baketards is all about 
-                        <span class="typer" id="main" data-words="macroons,cakes,muffins,unicorns" data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
-                        <span class="cursor" data-owner="main"></span>
-                </h3> -->
-                    
-            </section>
-            <section class="qr_codes">
-                <img class="qr_image" src="static/images/qr-code (2).png" />
-                <img class="qr_image" src="static/images/qr-code (4).png" />
-                <img class="qr_image" src="static/images/qr-code (5).png" />
-                <img class="qr_image" src="static/images/qr-code (6).png" />
-            </section>
-
-            <div class="footer">
-                <span>© 2018 Baketards</span>
-            </div>
+    <div class="container">
+        <div class="nav">
+            <a href="index.html">
+                <img src="static/images/Baketards Logo Final Favicon copy.png" alt="ultra_final_logo">
+            </a>
         </div>
-        
-        <script src="typer.js" ></script>
-        <!-- Firebase Code Snippet, please do not touch --> 
+        <section class="coming_soon">
+                <h1>Website Coming Soon...</h1>
+            </section>
+        <div class="footer">
+            <span>© 2018 Baketards</span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="typer.js"></script>
+    <!-- Firebase Code Snippet, please do not touch -->
 
-        <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
-        <script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+    <script>
         // Initialize Firebase
         var config = {
             apiKey: "AIzaSyBJC3n7oRkil_YcPkk--CRpUGNMAuzjuwQ",
@@ -60,6 +54,7 @@
             messagingSenderId: "964413901558"
         };
         firebase.initializeApp(config);
-        </script>
-    </body>
+    </script>
+</body>
+
 </html>

@@ -7,16 +7,14 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    min-height: 100vh;
 }
-/* Navigation */
-
-nav {
+.nav {
     display: flex;
     justify-content: center;
+    min-height: 20vh;
 }
-
-img.logo {
+.nav img {
     width: 200px;
     height: 200px;
 }
@@ -31,20 +29,19 @@ h1 {
     text-align: center;
 }
 
-img.qr_image {
-    width: 150px;
-    height: 150px;
+.coming_soon {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer CSS */
 .footer {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
-}
-.footer span {
-    color: #fff;
+    align-items: flex-end;
+    min-height: 18vh;
 }
 
 /* Mobile media query */
